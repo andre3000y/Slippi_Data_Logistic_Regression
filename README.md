@@ -11,7 +11,7 @@ I am only an intermediate programmer in the Python language. The best (most comp
 Using a small dataset of only 220 games (prior to cleaning), the model was able to produce the following ROC curves from a 4-fold cross validation:
 ![](Images/AUC_curves.jpeg)  
 
-The average accuracy for the testing data accross the 4 splits was 77.0%. For the training data, this value was 80.1%.
+The average accuracy for the testing data accross the 4 splits was 78.4%. For the training data, this value was 80.6%. This is a sizable improvement over the 56% accuracy of the baseline, which merely predicted the majority every time.
 
 ## Repository Structure
 ```
